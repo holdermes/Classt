@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <title>Classt • Soluções Digitais</title>
-        <!-- CONFIGURAÇÕES DA PAGINA -->
+        <!-- PAGE SETTINGS -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- LINKS PARA FORMATACAO -->
+        <!-- CSS LINKS -->
         <link rel="stylesheet" href="components/css/header.css">
         <link rel="stylesheet" href="components/css/content.css">
         <link rel="stylesheet" href="reset.css">
@@ -13,26 +13,67 @@
     <body>
         <!-- HEADER -->
         <header>
-            <a href="index.html"><img src="components/imgs/logo_branca.png" alt="Classt • Soluções Digitais"></a>
+            <a href="index.html">
+                <img src="components/imgs/logo_branca.png" alt="Classt • Soluções Digitais">
+            </a>
+
             <!-- MAIN MENU TOP -->
             <nav id="menu_top">
                 <a href="#">A EMPRESA</a>
-                <span class="divider">I</span>
+                <span class="divider1">I</span>
                 <a href="#">TRABALHOS</a>
-                <span class="divider">I</span>
+                <span class="divider1">I</span>
                 <a href="#">FUNDADORES</a>
-                <span class="divider">I</span>
+                <span class="divider1">I</span>
                 <a href="#">GRUPO DE ESTUDO</a>
-                <span class="divider">I</span>
+                <span class="divider1">I</span>
                 <a href="#">CONTATO</a>
             </nav>
-
         </header>
+
         <!-- CONTENT -->
         <main>
+            <!-- CONTENT 1 -->
             <div id="content1">
-                formulario
+                <p class="titulo1 ">Encomende seu Site</p>
+                <span class="divider2"></span>
+                <form action="">
+
+                    <!-- PERSONAL INFORMATION -->
+                    <fieldset id="personal_data">
+                        <legend class="titulo3">SEUS DADOS</legend>
+                        <div>
+                            <input type="text" placeholder="Nome" id="name" required>&nbsp
+                            <input type="text" placeholder="Telefone com DDD" id="phone" required>
+                        </div>
+                        <input type="email" placeholder="E-mail" id="email" required>
+                    </fieldset>
+
+                    <!-- SITE INFORMATION -->
+                    <fieldset id="site_data">
+                        <legend class="titulo3">INFORMAÇÕES DO SITE</legend>
+                        <select name="value" required>
+                            <option class="radio_off">Sugerir valor</option>
+                            <option value="500">R$ 500,00</option>
+                            <option value="800">R$ 800,00</option>
+                            <option value="1000">R$ 1.000,00</option>
+                            <option value="1500">R$ 1.500,00</option>
+                        </select>
+                        <div id="radio_area">
+                            <input type="radio" name="site_type" id="radio1" value="empresa" required>
+                            &nbsp<label for="radio1">Para uma empresa</label>&nbsp&nbsp&nbsp
+                            <input type="radio" name="site_type" id="radio2" value="autonomo" required>
+                            &nbsp<label for="radio2">Profissional autonomo</label>&nbsp&nbsp&nbsp
+                            <input type="radio" name="site_type" id="radio3" value="pessoal" required>
+                            &nbsp<label for="radio3">Site pessoal</label>
+                        </div>
+                        <input type="text" placeholder="Informações adicionais" id="info">
+                    </fieldset>
+                    <input type="submit" value="enviar pedido" class="btn_content">
+                </form>
             </div>
+
+            <!-- CONTENT 2 -->
             <div id="content2">
                 <div id="area1">
                     slider

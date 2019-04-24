@@ -15,8 +15,47 @@ a{
     text-decoration: none;
 }
 
+/* MAIN TITLES */
+.titulo1, .titulo2, .titulo3{
+    color: #1e1e1e;
+    font-weight: bold;
+    font-family: candara;
+}
+.titulo1{
+    font-size: 40px;
+    margin: 20px;
+}
+.titulo2{
+    font-size: 30px;
+}
+
+/* FORMS */
+fieldset{
+    border: none;
+    margin: 20px;
+    margin-bottom: 0;
+}
+input, select{
+    outline: none;
+    margin-top: 10px;
+    padding: 7px 9px;
+    color: #707070;
+    border-radius: 15px;
+    border: 1px solid #707070;
+}
+input.btn_content{
+    border: none;
+    border-radius: 0;
+}
+
 /* SPECIAL CLASS */
-span.divider{
+span.divider1{
     color: white;
     margin: 0 5px;
+}
+span.divider2{
+    width: 100%;
+    height: 35px;
+    display: block;
+    background-color: #dcdcdc;
 }
