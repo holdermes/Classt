@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+
+body{
+    font-size: 16px;
+    font-family: calibri;
+    cursor: default;
+    background: #006c99 url(components/imgs/background.png) no-repeat;
+    background-size: cover;
+}
+header, main{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* SPECIAL CLASS */
+span.divider{
+    color: white;
+    margin: 0 5px;
+}

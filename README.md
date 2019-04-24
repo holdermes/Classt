@@ -1,2 +1,2 @@
 # Classt
-Site da marca Classt/ Portfólio
+Site da marca Classt/Portfólio
