@@ -1,38 +1,56 @@
+
+/* CONTENT FORMATTING */
 main{
     margin: 0 40px;
+    justify-content: space-between;
 }
+/* CONTENTS AND AREAS */
 #content1{
-    width: 550px;
+    width: 100%;
+    min-width: 456px;
+    max-width: 850px;
     background-color: #ffffff;
 }
-
-
-/* FORMS */
+#content2{
+    margin-left: 15px;
+}
+#area1{
+    width: 615px;
+    height: 289px;
+    margin-bottom: 15px;
+}
+/* FORM */
 #personal_data, #site_data{
     display: inline;
-}
-#email, #info{
-    width: 95%;
 }
 #name, #info, select{
     text-transform: capitalize;
 }
-
-
-
+#radio_area input{
+    margin-top: 0; 
+}
+#email, #info{
+    width: 95%;
+}
 #radio_area{
-    display: flex;
     margin-top: 10px;
     align-items: center;
 }
-#radio_area input{
-    margin-top: 0;
+/* STUDY GROUP */
+#study_group{
+    width: 300px;
+    height: 158px;
+    align-items: center;
+    background-color: #ffffff;
 }
-.btn_content{
-    width: 100%;
-    cursor: pointer;
-    margin-top: 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    background-color: #063C53;
+#study_group img{
+    margin-top: 15px;
+}
+/* SAME ATTRIBUTES */
+main, #content1, #radio_area, #study_group, #area2{
+    display: flex;
+}
+#content1, #study_group{
+    flex-direction: column;
+    justify-content: space-between;
 }

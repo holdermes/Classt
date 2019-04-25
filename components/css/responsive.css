@@ -1,0 +1,14 @@
+
+
+/* RESOLUTION LESS THAN 1150PX
+*/
+@media(max-width:1150px) {
+    main{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #content2{
+        margin: 0 0 15px;
+    }
+}

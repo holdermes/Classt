@@ -1,13 +1,10 @@
-/*
-    HEADER FORMATTING
-*/
 
+/* HEADER FORMATTING */
 header{
     align-items: center;
     justify-content: space-between;
-    margin: 20px 40px;
+    margin: 20px 40px 8px;
 }
-
 #menu_top a:hover{
     color: #063C53;
     padding: 5px 15px;
