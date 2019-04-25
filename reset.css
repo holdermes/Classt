@@ -8,6 +8,7 @@ body{
     cursor: default;
     background: #006c99 url(components/imgs/background.png) no-repeat;
     background-size: cover;
+
 }
 header, main{
     display: flex;
@@ -38,7 +39,7 @@ input, select{
     height: 35px;
     display: flex;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 25px;
     color: #ffffff;
     align-items: center;
     justify-content: center;
@@ -78,4 +79,11 @@ span.divider2{
     height: 35px;
     display: block;
     background-color: #dcdcdc;
+}
+/* STANDARD LAYOUT */
+.mt{
+    margin-top: 15px;
+}
+.ml{
+    margin-left: 15px;
 }

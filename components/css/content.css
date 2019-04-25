@@ -11,13 +11,9 @@ main{
     max-width: 850px;
     background-color: #ffffff;
 }
-#content2{
-    margin-left: 15px;
-}
 #area1{
     width: 615px;
     height: 289px;
-    margin-bottom: 15px;
 }
 /* FORM */
 #personal_data, #site_data{
@@ -39,18 +35,38 @@ main{
 /* STUDY GROUP */
 #study_group{
     width: 300px;
-    height: 158px;
     align-items: center;
     background-color: #ffffff;
 }
 #study_group img{
-    margin-top: 15px;
+    margin-top: 27px;
+}
+/* INSTAGRAM */
+#instagram{
+    height: 125px;
+}
+#instagram section{
+    padding: 12px;
+}
+#instagram section p:first-child{
+    margin-bottom: 6px;
+}
+/* EXTRA AREA */
+#extra{
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
 }
 /* SAME ATTRIBUTES */
-main, #content1, #radio_area, #study_group, #area2{
+main, #content1, #radio_area, #area2, #study_group, #instagram{
     display: flex;
 }
 #content1, #study_group{
     flex-direction: column;
     justify-content: space-between;
+}
+#instagram, #extra{
+    width: 300px;
+    color: #ffffff;
+    background-color: #063C53;
 }
