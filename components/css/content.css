@@ -9,6 +9,7 @@ main{
     width: 100%;
     min-width: 456px;
     max-width: 850px;
+    height: 479px;
     background-color: #ffffff;
 }
 #area1{
@@ -17,7 +18,7 @@ main{
 }
 /* FORM */
 #personal_data, #site_data{
-    display: inline;
+    display: inline-block;
 }
 #name, #info, select{
     text-transform: capitalize;
@@ -44,6 +45,10 @@ main{
 /* INSTAGRAM */
 #instagram{
     height: 125px;
+    background-color: #ffffff;
+}
+#instagram img{
+    box-shadow: grey 1px 0 15px;
 }
 #instagram section{
     padding: 12px;
@@ -63,10 +68,7 @@ main, #content1, #radio_area, #area2, #study_group, #instagram{
 }
 #content1, #study_group{
     flex-direction: column;
-    justify-content: space-between;
 }
 #instagram, #extra{
     width: 300px;
-    color: #ffffff;
-    background-color: #063C53;
 }

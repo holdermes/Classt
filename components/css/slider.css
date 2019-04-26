@@ -1,0 +1,20 @@
+
+@keyframes slider{
+    0%{
+        z-index: 1;
+    }
+    50%{
+        z-index: 2;
+    }
+}
+
+#slide1, #slide2{
+    position: absolute;
+}
+#slide1{
+    animation: slider 8s alternate;
+    animation-iteration-count: infinite;
+}
+#slide2{
+
+}

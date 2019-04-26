@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSS LINKS -->
         <link rel="stylesheet" href="components/css/header.css">
+        <link rel="stylesheet" href="components/css/slider.css">
         <link rel="stylesheet" href="components/css/content.css">
         <link rel="stylesheet" href="components/css/responsive.css">
         <link rel="stylesheet" href="reset.css">
@@ -38,8 +39,8 @@
             <div id="content1">
                 <p class="titulo1 ">Encomende seu Site</p>
                 <span class="divider2"></span>
-                <form action="">
-
+                <!-- ORDER FORM -->
+                <form>
                     <!-- PERSONAL INFORMATION -->
                     <fieldset id="personal_data">
                         <legend class="titulo3">SEUS DADOS</legend>
@@ -70,15 +71,17 @@
                         </div>
                         <input type="text" placeholder="Informações adicionais" id="info">
                     </fieldset>
-                    <input type="submit" class="btn_content">
+                    
                 </form>
+                    <a class="btn1" href="pages/pedido.jsp" target="blank">enviar pedido</a>
             </div>
 
             <!-- CONTENT 2 -->
             <div id="content2" class="ml">
                 <!-- SLIDER -->
                 <div id="area1">
-                    <img src="components/imgs/slide1.png" alt="soluções criativas e funcionais">
+                    <img src="components/imgs/slide1.png" id="slide1" alt="soluções criativas e funcionais">
+                    <img src="components/imgs/slide2.png" id="slide2" alt="desenvolvimento mobile">
                 </div>
                 <!-- STUDY GROUP - INSTAGRAM - EXTRA -->
                 <div id="area2" class="mt">
@@ -86,17 +89,19 @@
                         <img src="components/imgs/icon1.png" alt="grupo de estudo">
                         <p class="titulo2">GRUPO DE ESTUDO</p>
                         <p class="titulo3">ATUALIZE SEU MUNDO!</p>
-                        <a href="#" class="btn_content">saber mais...</a>
+                        <a href="#" class="btn1">saber mais...</a>
                     </div>
                     <div id="area3" class="ml">
                         <div id="instagram">
-                            <a href="https://www.instagram.com/_classt" target="blank"><img src="components/imgs/insta.png" alt="instagram"></a>
+                            <a href="https://www.instagram.com/_classt" target="blank">
+                                <img src="components/imgs/insta.png" alt="instagram">
+                            </a>
                             <section>
-                                <p>SIGA NO INSTAGRAM!</p>
+                                <p class="titulo3">SIGA NO INSTAGRAM!</p>
                                 <p>Acompanhe e veja nossos últimos trabalhos.</p>
                             </section>
                         </div>
-                        <a class="btn_content mt">
+                        <a href="#" class="btn1 mt">
                             WEB • DESIGN • MARKETING
                         </a>
                     </div>
